@@ -1,15 +1,19 @@
 import React from 'react';
 import Button from '../../UI/Button/Button';
-import Aux from '../../../hoc/Aux';
+import Aux from '../../../hoc/Aux/Aux';
 
-const orderSummary = (props) => {
-  const ingredientSummary = Object.keys(props.ingredients)
-    .map(igKey => {
-      return <li key={igKey}>
-              <span style={{textTransform: 'capitalize'}}>{igKey}</span>: {props.ingredients[igKey]}
-            </li>
-    });
-  return (
+const orderSummary = (props) =>  {
+  const ingredientSummary = Object.keys(props.ingredients).map(
+    igKey => {
+      return (
+        <li key={igKey}>
+          <span style={{ textTransform: "capitalize" }}>{igKey}</span>:{" "}
+          {props.ingredients[igKey]}
+        </li>
+      );
+    }
+  );
+  return(
     <Aux>
       <h3>Your Order</h3>
       <p>A delicious burger with the following ingredients: </p>
@@ -21,8 +25,7 @@ const orderSummary = (props) => {
       <Button btnType="Danger" clicked={props.purchaseCancelled}>CANCEL</Button>
       <Button btnType="Success" clicked={props.purchaseContinued}>CONTINUE</Button>
     </Aux>
-  )
-  
+  );
 };
 
 export default orderSummary;
