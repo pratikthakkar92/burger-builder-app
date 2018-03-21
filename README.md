@@ -1,4 +1,4 @@
-#Burger Builder
+# Burger Builder
 A simple Burger Builder built using the React Framework
 
 ### Prerequisites
