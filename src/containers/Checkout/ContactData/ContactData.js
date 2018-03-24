@@ -111,8 +111,6 @@ class ContactData extends Component {
     this.props.onOrderBurger(order);
   };
 
-  
-
   checkValidity(value, rules) {
     let isValid = true;
 
