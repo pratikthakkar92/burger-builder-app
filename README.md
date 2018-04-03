@@ -1,5 +1,5 @@
 # Burger Builder
-A simple Burger Builder built using the React Framework
+A simple Burger Builder built using the React & Redux Framework
 
 ### Prerequisites
 
@@ -54,7 +54,9 @@ Add additional notes about how to deploy this on a live system
 ## Built With
 
 * [React](https://reactjs.org/) - Web Framework
-* [Yarn](https://yarnpkg.com/en/) & [NPM](https://www.npmjs.com/) - Dependency Management
+* [Redux](https://redux.js.org/) - Web Framework
+* [Jest](https://facebook.github.io/jest/) & [Enzyme](http://airbnb.io/enzyme/) - Testing Tools
+* [NPM](https://www.npmjs.com/) - Dependency Management
 * [VSCode](https://code.visualstudio.com/) - Code Editor
 
 ## License
