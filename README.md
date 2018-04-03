@@ -1,55 +1,35 @@
 # Burger Builder
 A simple Burger Builder built using the React & Redux Framework
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+In order to install this on your system please run the following commands:
 
 ```
-Give the example
+git clone https://github.com/pratikthakkar92/burger-builder-app.git
+cd burger-builder-app
+npm install
+npm start
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+I've written test cases using [Facebook's Jest](https://facebook.github.io/jest/) and [AirBnB's Enzyme](http://airbnb.io/enzyme/)
 
-### Break down into end to end tests
-
-Explain what these tests test and why
+To run the test cases use the following commands:
 
 ```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
+npm test
 ```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+In order to deploy this on a live system you will have to run the following commands: 
+
+```
+npm build
+npm deploy
+```
 
 ## Built With
 
@@ -65,6 +45,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* [Maximilian Schwarzmüller](https://twitter.com/maxedapps)
+* [Udemy](www.udemy.com)
+
