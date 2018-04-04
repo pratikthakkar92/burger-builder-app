@@ -27,8 +27,8 @@ npm test
 In order to deploy this on a live system you will have to run the following commands: 
 
 ```
-npm build
-npm deploy
+npm run build
+npm run deploy
 ```
 
 ## Built With
