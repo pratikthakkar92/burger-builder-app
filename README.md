@@ -21,6 +21,10 @@ To run the test cases use the following commands:
 ```
 npm test
 ```
+## Demo Link
+
+I've deployed this app on GitHub Pages. You can see the demo for this app using the following link:
+https://pratikthakkar92.github.io/burger-builder-app
 
 ## Deployment
 
